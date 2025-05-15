@@ -18660,17 +18660,22 @@ tunnel-agent@^0.6.0:
   dependencies:
     safe-buffer "^5.0.1"
 
-turbo@^2.1.2:
-  version "2.1.2"
-  resolved "https://registry.npmjs.org/turbo/-/turbo-2.1.2.tgz"
-  integrity sha512-Jb0rbU4iHEVQ18An/YfakdIv9rKnd3zUfSE117EngrfWXFHo3RndVH96US3GsT8VHpwTncPePDBT2t06PaFLrw==
+turbo-linux-64@1.13.4:
+  version "1.13.4"
+  resolved "https://registry.npmjs.org/turbo-linux-64/-/turbo-linux-64-1.13.4.tgz"
+  integrity sha512-Bq0JphDeNw3XEi+Xb/e4xoKhs1DHN7OoLVUbTIQz+gazYjigVZvtwCvgrZI7eW9Xo1eOXM2zw2u1DGLLUfmGkQ==
+
+turbo@^1.12.5:
+  version "1.13.4"
+  resolved "https://registry.npmjs.org/turbo/-/turbo-1.13.4.tgz"
+  integrity sha512-1q7+9UJABuBAHrcC4Sxp5lOqYS5mvxRrwa33wpIyM18hlOCpRD/fTJNxZ0vhbMcJmz15o9kkVm743mPn7p6jpQ==
   optionalDependencies:
-    turbo-darwin-64 "2.1.2"
-    turbo-darwin-arm64 "2.1.2"
-    turbo-linux-64 "2.1.2"
-    turbo-linux-arm64 "2.1.2"
-    turbo-windows-64 "2.1.2"
-    turbo-windows-arm64 "2.1.2"
+    turbo-darwin-64 "1.13.4"
+    turbo-darwin-arm64 "1.13.4"
+    turbo-linux-64 "1.13.4"
+    turbo-linux-arm64 "1.13.4"
+    turbo-windows-64 "1.13.4"
+    turbo-windows-arm64 "1.13.4"
 
 tv4@^1.3.0:
   version "1.3.0"
