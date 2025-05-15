@@ -3,11 +3,13 @@
 import { defineConfig } from "vite";
 import react from "@vitejs/plugin-react";
 import { nodePolyfills } from "vite-plugin-node-polyfills";
+import wasm from "vite-plugin-wasm";
 import { resolve } from "path";
 
 export default defineConfig(() => {
   return {
     plugins: [
+      wasm(),
       nodePolyfills({
         globals: {
           Buffer: true
@@ -20,6 +22,7 @@ export default defineConfig(() => {
       commonjsOptions: {
         transformMixedEsModules: true,
       },
+      assetsInclude: ['**/*.wasm']
     },
     preview: {
       port: 5001,
