@@ -7,7 +7,15 @@ import { resolve } from "path";
 
 export default defineConfig(() => {
   return {
-    plugins: [nodePolyfills(), react()],
+    plugins: [
+      nodePolyfills({
+        globals: {
+          Buffer: true
+        },
+        protocolImports: true
+      }), 
+      react()
+    ],
     build: {
       commonjsOptions: {
         transformMixedEsModules: true,
