@@ -1,0 +1,94 @@
+---
+description: 
+globs: 
+alwaysApply: true
+---
+# Comprehensive Cursor Rules for Production Environments
+
+## Primary Directives
+
+1. **ENGLISH RESPONSES ONLY**: All communications, code suggestions, and documentation must be exclusively in English.
+
+2. **NO TOAST NOTIFICATIONS**: Under no circumstances are toast notifications to be implemented or suggested. These are strictly prohibited as they introduce unnecessary UI elements and potential interruptions to the workflow.
+
+3. **PRODUCTION ENVIRONMENT PROTOCOLS**: All code is being implemented in a live production environment, not a test, mock, simulation, or development environment. Exercise maximum caution.
+
+## Code Integrity Guidelines
+
+1. **VERIFICATION REQUIREMENT**: All code suggestions must be thoroughly verified for syntax correctness, logical consistency, and adherence to the existing codebase architecture before submission.
+
+2. **NO MOCK IMPLEMENTATIONS**: Do not create or suggest mock implementations, placeholder functions, or simulation code. All code must be production-ready and fully functional.
+
+3. **NO CODE COMMENTS**: Do not add comments to the codebase. The code must be self-documenting and clear enough to stand without explanatory comments.
+
+4. **NO SIMULATIONS**: Do not simulate code execution or effects. Only provide code that is guaranteed to execute properly in the production environment.
+
+## Implementation Standards
+
+1. **PRECISION MANDATE**: Every character, whitespace, indent, and line break must be deliberately placed and verified. Imprecise code poses critical risks in production.
+
+2. **COMPREHENSIVE SOLUTIONS**: Provide complete solutions that address the entire scope of the requirement without fragmentary implementations.
+
+3. **CONTEXTUAL AWARENESS**: All suggestions must demonstrate awareness of the surrounding codebase context, architectural patterns, and established conventions.
+
+4. **ERROR HANDLING REQUIREMENT**: All code must include robust error handling mechanisms appropriate for production environments, including graceful failure processes.
+
+## Security Protocols
+
+1. **VULNERABILITY ASSESSMENT**: All code must be assessed for potential security vulnerabilities before submission.
+
+2. **AUTHENTICATION PRESERVATION**: Never compromise existing authentication mechanisms or security measures.
+
+3. **DATA INTEGRITY PROTECTION**: Ensure all data transformations maintain integrity and follow established validation protocols.
+
+4. **NO HARDCODED CREDENTIALS**: Never suggest implementations with hardcoded credentials, API keys, or sensitive information.
+
+## Performance Considerations
+
+1. **RESOURCE EFFICIENCY**: All code must be optimized for minimal resource consumption appropriate to its function.
+
+2. **SCALABILITY REQUIREMENT**: Implementations must accommodate potential scaling requirements without architectural refactoring.
+
+3. **LATENCY MINIMIZATION**: Code must minimize additional latency introduced to system operations.
+
+## Testing Implications
+
+1. **TESTABILITY MANDATE**: While not implementing tests directly, code must be structured to facilitate comprehensive testing by development teams.
+
+2. **EDGE CASE CONSIDERATION**: All implementations must account for documented edge cases and potential failure scenarios.
+
+## Documentation Standards
+
+1. **CLARITY IMPERATIVE**: All explanations must be clear, concise, and technically precise.
+
+2. **IMPLEMENTATION RATIONALE**: When appropriate, provide concise rationale for implementation decisions that impact system architecture.
+
+3. **NO AMBIGUITY**: Avoid ambiguous terminology or instructions that could result in misinterpretation.
+
+## Final Verification
+
+1. **FULL REVIEW REQUIREMENT**: All code must undergo a comprehensive review process before submission.
+
+2. **CONFIRMATION OF PRODUCTION READINESS**: Explicitly confirm that the code is suitable for immediate deployment to production without additional modifications.
+
+## Absolute Prohibitions
+
+1. **NO EXPERIMENTAL FEATURES**: Do not implement or suggest experimental, beta, or deprecated features.
+
+2. **NO UNNECESSARY DEPENDENCIES**: Do not introduce new dependencies unless absolutely essential.
+
+3. **NO BREAKING CHANGES**: Do not introduce changes that could break existing functionality.
+
+4. **NO ASSUMPTIONS**: Do not make assumptions about the environment, dependencies, or system configuration. Verify all factors before proceeding.
+
+5. **NO PARTIAL IMPLEMENTATIONS**: Do not suggest partial or incomplete implementations that require additional work to function correctly.
+
+## Communication Protocol
+
+1. **VERIFICATION QUERIES**: When essential information is missing, request specific clarification rather than making assumptions.
+
+2. **CONFIRMATION REQUIREMENT**: Request explicit confirmation before implementing changes with significant system impact.
+
+3. **PRECISION IN TERMINOLOGY**: Use precise technical terminology to avoid miscommunication.
+
+REMEMBER: You are working in a LIVE PRODUCTION ENVIRONMENT. These rules are not optional - they are MANDATORY SAFEGUARDS to prevent critical system failures.
